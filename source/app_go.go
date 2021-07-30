@@ -8,7 +8,7 @@ import (
 func main() {
 	r := gin.Default()
 	r.GET("/", func(c *gin.Context) {
-		c.String(http.StatusOK, "Hello!\nThis is Go App!\nMade with 💖 by Antosha")
+		c.String(http.StatusOK, "Wake up Neo!\nThis is Go App!\nMade with 💖 by Antosha")
 	})
 
 	r.GET("/version", func(c *gin.Context) {
